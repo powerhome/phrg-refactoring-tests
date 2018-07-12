@@ -24,4 +24,4 @@ it "is invalid with too short content" do
 end
 ```
 
-This lab is complete when the tests are green all there are no `before` or `let`s in the test files.
+This lab is complete when the tests are green and there are no `before` or `let`s in the test files.
