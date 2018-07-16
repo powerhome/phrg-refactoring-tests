@@ -27,7 +27,7 @@ RSpec.describe "Specs" do
       end
     end
 
-    it "does not invoke Author.create" do
+    it "does not invoke create" do
       File.open("spec/models/author_spec.rb") do |file|
         expect(file.grep(/Author.create/)).to eq []
         expect(file.grep(/described_class.create/)).to eq []
